@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InstiOLX</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="Images/HP_Shop.png">
+</head>
+
+<body>
+  <header class="container">
+    <div class="header-container ">
+      <div class="heading-logo--container">
+        <div class="logo-container">
+          <img src="Images/IMG_20240621_210258.png" alt="Ths is a logo">
+        </div>
+        <!-- <div class="site-heading">
+          <h1>InstiOLX</h1>
+        </div> -->
+      </div>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <ul class="list">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Catogeries">Catogeries</a></li>
+            <li><a href="#Contact us">Contact </a></li>
+            <li><a href="#About us">About </a></li>
+          </ul>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+  <main class="container">
+    <section class="hero-container">
+      <div class="hero-content">
+        <h1>Want to sell something ???</h1>
+        <div class="main-image">
+          <img src="./Images/HP_Shop.png" alt="This  is shoping image">
+
+          <p>Our website provides a seamless and user-friendly platform for selling your items online. Create detailed
+            listings, reach a wide audience, and manage your sales effortlessly. With robust security features and a
+            supportive community, you can turn your unused items into extra income. Start selling today and experience
+            the
+            convenience and efficiency of our online marketplace. Transform your clutter into cash easily.To sell,
+            please
+            fill this form.</p>
+        </div>
+      </div>
+      <div class="form-container">
+        <form action="https://formspree.io/f/mayrrgjq" method="post" class="form grid grid-two-cols">
+
+          <div class="name-item field">
+
+            <label for="name">Item :</label>
+            <input type="text" id="name" placeholder="What do you want to sell?" required>
+          </div>
+          <div class="brand-item field">
+            <label for="brand">Brand :</label>
+            <input type="text" placeholder="Specify the brand of the item" required>
+          </div>
+          <div class="images-item">
+            <label for="images">image</label>
+            <input type="file" id="images">
+          </div>
+          <div class="date-item field">
+            <label for="date">When It was Purchased :</label>
+            <input type="date" name="dd-mm-yyyy" id="date" required>
+          </div>
+          <div class="price-item field">
+            <label for="price">Price :</label>
+            <input type="text" id="price" placeholder="Specify selling price" required>
+          </div>
+          <div class="your-name field">
+            <label for="name-seller">Your Name :</label>
+            <input type="text" id="name-seller" placeholder="Name" required>
+          </div>
+          <div class="contact-seller field">
+            <label for="contact">Contact Number :</label>
+            <input type="text" id="contact" placeholder="Number" required>
+          </div>
+          <div class="location-seller field">
+            <label for="location">Your Address :</label>
+            <textarea id="location" cols="12" rows="4" placeholder="Address" required></textarea>
+          </div>
+          <div class="button field">
+            <button type="submit" class="submit-button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="container">
+    <div class="footer-container">
+      <div class="links">
+        <h1>Links</h1>
+        <div class="list-container">
+          <ul class="list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Catogeries</a></li>
+            <li><a href="#">Contact </a></li>
+            <li><a href="#">About </a></li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <div class="social-media--icon">
+          <div class="facebook icon">
+
+            <i class="fa-brands fa-facebook"></i>
+
+          </div>
+          <div class="instagram icon">
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+          <div class="discord icon">
+            <i class="fa-brands fa-discord"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-text">
+      <h3>© All Rights Are Reserved</h3>
+    </div>
+  </footer>
+</body>
+
+</html>
